@@ -2,8 +2,7 @@ body {
   color: #d3d3d3;
   font-family: 'Circular-Loom';
   margin: 0;
-
-  /* background-color: black; */
+  background-color: #efefef;
   background-repeat: no-repeat;
 }
 
@@ -28,14 +27,16 @@ body {
   /* height: 100%; */
   z-index: -1;
 }
+
 .backImageProd {
-  opacity: 0.05;
+  opacity: 0.1;
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100%;
   z-index: -1;
+
   /* background-size: ; */
 }
 
@@ -57,6 +58,7 @@ body {
 h1 {
   font-size: 40px;
 }
+
 .prodName {
   word-wrap: normal;
   width: 80px;
@@ -109,7 +111,7 @@ h3 {
   -webkit-background-clip: text;
   background-clip: text;
   background-size: contain;
-  background-image: url(./Assets/images/beautiful-shot-makeup-brush-isolated-black-background_181624-22423.webp);
+  background-image: url(./Assets/images/backgroundText.jpg);
   background-blend-mode: lighten;
   color: transparent;
 }
@@ -117,7 +119,7 @@ h3 {
 .storyParagraph {
   color: rgb(93 91 91);
   border-radius: 5px;
-  border: #666 2px solid;
+  border: rgb(170, 170, 170) 2px solid;
   background-color: #d3d3d33d;
   padding: 15px;
   font-size: 15px;
@@ -129,7 +131,9 @@ h3 {
   align-items: center;
   width: 100vw;
   margin: 0;
+
   /* z-index: -1; */
+
   /* z-index causes the inspect to be at body first */
   position: relative;
   justify-content: center;
@@ -151,7 +155,7 @@ ul {
 
 .prd1,
 .pdr2 {
-display: flex;
+  display: flex;
   width: 95vw;
   border: 1px rgba(255, 0, 0, 0) solid;
   background-color: #bfbfbf75;
@@ -159,22 +163,24 @@ display: flex;
   flex-direction: row;
   align-items: center;
   align-content: flex-start;
-
-
-
 }
 
 .productImage {
   margin: 5px;
   width: 25vw;
+
   /* border: hsl(32deg 94% 86%) dotted 10px; */
   border-radius: 100%;
 }
-.prodText{
+
+.prodText {
+  text-shadow: 0 0 4px #000;
   color: #fff;
   width: 40vw;
 }
+
 .productsBtn {
+  font-family: 'Circular-Loom';
   border-radius: 5px;
   font-size: large;
   width: 70vw;
