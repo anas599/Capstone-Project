@@ -1,46 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="./Assets/JavaScript/scrollTransitions.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.16.6/dist/umd/popper.min.js"
-        integrity="sha384-QDnxkcFoRiK4G4t4h4Zdd+vnQ2XnKFHh5S5P5o5vLRe5NuI1jYVbPW8KvhV7l9+9"
-        crossorigin="anonymous"></script> -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-        crossorigin="anonymous"></script>
+    <script defer src="./Assets/JavaScript/scrollTransitions.js"></script>
+    <title>Document</title>
 </head>
+
 <body>
+    <section class="hero scroll">
+        <nav>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">My Site</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-            <li class="nav-item active">
-                <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+            <ul class="navMenu scroll">
+                <ul>
+                    Products
+                    <li class="products">Rouge</li>
+                    <li class="products">Mascara</li>
+                    <li class="products">Hair Care</li>
+                </ul>
+                <li>Our Story</li>
+                <li>Contact Us</li>
+                <li>About Us</li>
+            </ul>
+            <div class="navIcon" onclick="navMenuFun()">
+                <i class="fa fa-bars"></i>
+                <img class="backImage" src="./Assets/images/cosmetics_icons.png" alt="">
+                
+            </div>
+        </nav>
+        <article class="mainArt">
+            <h2>Nova Cosmetics</h2>
+            <h1>Our Story Started in 2020 when Covid-19 spreaded</h1>
+            <p class="storyParagraph">At Nova Cosmetics, we believe in the power of natural beauty. Our mission is to create high-quality,
+                natural products
+                that enhance your natural beauty and make you feel confident and empowered.</p>
+        </article>
 
+        <h3>2023.01.02(WED)~11(FRI)</h3>
+        <h4>@City Mall,</h4>
+        <h2>Our Producs</h2>
+
+    </section>
+    <section class="productsList">
+        <div class="makeup">
+            <img class="backImageProd" src="./Assets/images/backImageProd.jpg" alt="">
+            <div class="prd1 scroll">
+                <img class="productImage" src="./Assets/images/foundation1.jpg" alt="foundation_">
+                <h4 class="prodName" >Foundation</h4>
+                <h4 class="prodText">Ultimate Matte Foundation</h4>
+                <!-- <button class="slide-fwd-center">See Product</button> -->
+
+            </div>
+            <br>
+            <div class="prd1 scroll">
+                <img class="productImage" src="./Assets/images/primer.jpg" alt="primer">
+                <h4 class="prodName" >Primer</h4>
+                <h4 class="prodText">Volume Length Mascara</h4>
+                <!--<button>See Product</button> -->
+            </div>
+            <br>
+            <div class="prd1 scroll">
+                <img class="productImage" src="./Assets/images/Powder.jpg" alt="Powder">
+                <h4 class="prodName" >Powder</h4>
+                <h4 class="prodText">Poreless Primer Blurmax Pore-minimize Primer</h4>
+                <!--<button>See Product</button> -->
+            </div>
+            <br>
+            <div class="prd1 scroll">
+                <img class="productImage" src="./Assets/images/Mascara.jpg" alt="Mascara">
+                <h4 class="prodName" >Powder</h4>
+                <h4 class="prodText">Volume Length Mascara</h4>
+                <!--<button>See Product</button> -->
+            </div>
+            <br>
+            <div class="prd1 scroll">
+                <img class="productImage" src="./Assets/images/Eyeliner.jpg" alt="Eyeliner">
+                <h4 class="prodName" >Powder</h4>
+                <h4 class="prodText">WaterProof Eyeliner</h4>
+                <!--<button>See Product</button> -->
+            </div>
+            <br>
+            
+        </div>
+        <button class="productsBtn">See More Products</button>
+    </section>
+    <script src="./Assets/JavaScript/navMenuMobile.js"></script>
 </body>
+
 </html>
