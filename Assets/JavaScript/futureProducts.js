@@ -13,27 +13,6 @@ const featuredProducts = [
     description: 'Volume Length Mascara',
     moreText: 'more text goes here',
   },
-  {
-    image: './Assets/images/Powder.jpg',
-    imageBoard: './Assets/images/SVG/Chess_Board.svg',
-    name: 'Powder',
-    description: 'Poreless Primer Blurmax Pore-minimize Primer',
-    moreText: 'more text goes here',
-  },
-  {
-    image: './Assets/images/Mascara.jpg',
-    imageBoard: './Assets/images/SVG/Chess_Board.svg',
-    name: 'Mascara',
-    description: 'Volume Length Mascara',
-    moreText: 'more text goes here',
-  },
-  {
-    image: './Assets/images/Eyeliner.jpg',
-    imageBoard: './Assets/images/SVG/Chess_Board.svg',
-    name: 'Eyeliner',
-    description: 'Intense Waterproof Eyeliner',
-    moreText: 'more text goes here',
-  },
 ];
 
 const makeUpDiv1 = document.querySelector('.realProd');
