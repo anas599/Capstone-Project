@@ -1,17 +1,19 @@
 const featuredProducts = [
   {
     image: './Assets/images/foundation1.jpg',
-    imageBoard: './Assets/images/SVG/Chess_Board.svg',
+    imageBoard: './Assets/images/chess_grey.png',
     name: 'Foundation',
     description: 'Ultimate Matte Foundation',
-    moreText: 'more text goes here',
+    moreText:
+      'Rebellions foundation was a game-changer in the cosmetics industry, and it solidified the brands reputation as a leader in the world of makeup.',
   },
   {
-    image: './Assets/images/Mascara.jpg',
-    imageBoard: './Assets/images/SVG/Chess_Board.svg',
+    image: './Assets/images/primer.jpg',
+    imageBoard: './Assets/images/chess_grey.png',
     name: 'Primer',
-    description: 'Volume Length Mascara',
-    moreText: 'more text goes here',
+    description: 'Poreless Primer Blurmax Pore-Minimize Primer',
+    moreText:
+      "In addition to its skincare benefits, Rebellion's primer also had impressive staying power. Makeup applied over the primer stayed put all day, without fading or creasing, and customers reported that their skin looked fresher and more youthful as a result.",
   },
 ];
 

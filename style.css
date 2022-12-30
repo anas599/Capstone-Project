@@ -128,7 +128,9 @@ h3 {
   /* margin: 25px; */
   font-size: 50px;
 }
-
+#navMenuID{
+  z-index: 1;
+}
 .mainArt {
   -webkit-background-clip: text;
   background-clip: text;
@@ -136,6 +138,14 @@ h3 {
   background-image: url(./Assets/images/backgroundText.jpg);
   background-blend-mode: lighten;
   color: transparent;
+}
+.mainArtAbout {
+  color: #F63D23;
+  text-align: center;
+}
+.navLink{
+  color: inherit;
+    text-decoration: none;
 }
 
 .storyParagraph {
@@ -239,6 +249,11 @@ ul {
   -webkit-transform: rotate(45deg);
 }
 
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
 .productDescription {
   display: flex;
   flex-direction: column;
@@ -252,10 +267,15 @@ ul {
   justify-content: center;
   background-color: white;
   width: 90vw;
-  height: 44px;
+  height: 54px;
   align-content: center;
   align-items: center;
   margin-block: 20px;
+}
+
+.moreBtn:active {
+  color: #dbdbdb;
+  background-color: #ec5242;
 }
 
 .productsBtn {
@@ -271,19 +291,16 @@ ul {
   margin: 10px;
 }
 
-.moreProd{
+.moreProd {
   display: none;
   flex-direction: column;
 }
-.moreShow{
+
+.moreShow {
   display: flex;
 }
-button:hover {
-  background-color: #666;
-
-  /* inline-size:  35%; */
-
-  /* font-weight: 700; */
+.allProductsDesktop{
+  display: none;
 }
 
 /* button:hover .slide-fwd-center {
@@ -305,5 +322,91 @@ svg {
 @media (min-width: 700px) {
   img {
     width: 25vw;
+  }
+
+  .prd1 {
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    border: #1c1c1c 1px solid;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    text-align: center;
+  }
+
+  .mainSpecs {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .prodText {
+    width: 15vw;
+  }
+
+  .backImageProd {
+    height: 100%;
+  }
+
+  .productsList {
+    height: 80vh;
+  }
+
+  .productsBtn {
+    width: 20vw;
+  }
+
+  .moreProd {
+    display: flex;
+  }
+
+  .moreBtn {
+    display: none;
+  }
+
+  .realProdSection {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0 0;
+  }
+
+  .allProductsDesktop {
+    display: grid;
+    grid-template: repeat(1, 1fr) / repeat(4, 1fr);
+        gap: 10px;
+          margin: 10vw;
+
+    /* display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; */
+  }
+
+  .realProduct {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw;
+  }
+
+  .productImage {
+    width: 10vw;
+  }
+
+  .realProdSection {
+    display: none;
+  }
+
+  .prodText2 {
+    font-size: 15px;
+    width: 25vw;
+  }
+
+  .productImageBoard {
+    margin: -8px;
+    position: absolute;
+    width: 7vw;
+    z-index: -1;
   }
 }
