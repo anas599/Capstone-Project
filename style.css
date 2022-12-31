@@ -78,7 +78,7 @@ h2.logo {
 
 .scroll {
   opacity: 0;
-  filter: blur(5px);
+  filter: blur(6px);
   transform: translateX(-100%);
   transition: all 1s;
 }
