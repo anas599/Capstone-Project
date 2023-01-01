@@ -166,16 +166,17 @@ h3 {
   align-items: center;
   z-index: 1;
 }
-    .navele:hover {
-      color: #f63d23;
-      border: #f63d23 5px solid;
-  
-    }
-  
-    .navele:active {
-      color: #dbdbdb;
-      background-color: #272a31;
-    }
+
+.navele:hover {
+  color: #f63d23;
+  border: #f63d23 5px solid;
+}
+
+.navele:active {
+  color: #dbdbdb;
+  background-color: #272a31;
+}
+
 .logo {
   display: none;
 }
@@ -426,12 +427,13 @@ svg {
   .navele:hover {
     color: #f63d23;
     border: #f63d23 5px solid;
-
   }
-  .navele:active{
+
+  .navele:active {
     color: #dbdbdb;
     background-color: #272a31;
   }
+
   .storyH1 {
     margin: 0;
     width: 50vw;
