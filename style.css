@@ -1,6 +1,6 @@
 body {
   color: #d3d3d3;
-  font-family: 'Circular-Loom';
+  font-family: 'Circular-Loom', Arial, Helvetica, sans-serif;
   margin: 0;
   background-color: #efefef;
   background-repeat: no-repeat;
@@ -8,18 +8,15 @@ body {
 
 .hero {
   text-align: left;
-  margin: 15px;
-  padding-bottom: 100px;
   position: inherit;
-
-  /* background-image: url(./Assets/images/cosmetics_icons.png); */
-
-  /* background-color: wheat;; */
 }
 
 .backImage {
   opacity: 0.05;
-  position: absolute;
+
+  /* position: absolute; */
+
+  /* back image postion conflict with navmenu */
   top: 0;
   left: 0;
   width: 100%;
@@ -27,9 +24,17 @@ body {
   /* height: 100%; */
   z-index: -1;
 }
-h2{
+
+h2 {
   color: #000;
 }
+
+h2.logo {
+  position: absolute;
+  left: 0;
+  margin-left: 15vw;
+}
+
 .backImageProd {
   opacity: 0.1;
   position: absolute;
@@ -40,6 +45,25 @@ h2{
   z-index: -1;
 
   /* background-size: ; */
+}
+
+.storyH1 {
+  margin: 0;
+  width: 90vw;
+  font-size: 45px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-size: contain;
+  background-image: url(./Assets/images/backgroundText.jpg);
+  background-blend-mode: lighten;
+  color: transparent;
+}
+
+.storyH2 {
+  font-size: 20px;
+  color: #f63d23;
+  margin: 0;
+  width: 90vw;
 }
 
 /* scroll animation */
@@ -100,16 +124,10 @@ h3 {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   display: none;
   flex-direction: column;
-  /* background-color: antiquewhite; */
-}
-
-.navMenu li {
-  list-style-type: none;
-  color: black;
-  padding: 10px;
+  background-color: #d3d3d3;
 }
 
 .navMenu.show {
@@ -117,41 +135,64 @@ h3 {
   flex-direction: column;
   margin: 0;
   padding: 0;
-  margin-top: 70px;
+
+  /* margin-top: 70px; */
   height: 100vh;
   align-items: center;
+  justify-content: center;
 }
 
 .navIcon {
   color: #ec5242;
   position: relative;
   display: flex;
-
-  /* margin: 25px; */
+  height: 40px;
+  padding: 20px;
   font-size: 50px;
 }
 
 .navele {
-  font-size: 20px;
-  border: 2px solid #f63d23;
-  border-radius: 20px;
-  font-size: 20px;
-  margin: 10px;
-  width: 40vw;
+  border: #f63d23 2px solid;
+  border-radius: 10px;
+  font-size: 27px;
+  margin: 20px;
+  width: 50vw;
   text-align: center;
+  list-style-type: none;
+  color: black;
+  padding: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+    .navele:hover {
+      color: #f63d23;
+      border: #f63d23 5px solid;
+  
+    }
+  
+    .navele:active {
+      color: #dbdbdb;
+      background-color: #272a31;
+    }
+.logo {
+  display: none;
 }
 
-#navMenuID {
-  z-index: 1;
+.greyFullImg {
+  position: absolute;
+  background-size: cover;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  opacity: 0.1;
 }
 
 .mainArt {
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-size: contain;
-  background-image: url(./Assets/images/backgroundText.jpg);
-  background-blend-mode: lighten;
-  color: transparent;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .mainArtAbout {
@@ -168,6 +209,18 @@ h3 {
   z-index: -1;
 }
 
+.dateH3 {
+  color: #575757;
+  font-size: 30px;
+  margin: 20px;
+}
+
+.locationH4 {
+  color: #575757;
+  font-size: 20px;
+  margin: 20px;
+}
+
 .storyParagraph {
   color: rgb(93 91 91);
   border-radius: 5px;
@@ -175,6 +228,7 @@ h3 {
   background-color: #d3d3d33d;
   padding: 15px;
   font-size: 15px;
+  width: 85vw;
 }
 
 .productsList {
@@ -230,7 +284,6 @@ ul {
 .productImage {
   margin: 20px;
   width: 35vw;
-  height: fit-content;
 }
 
 .productImageBoard {
@@ -299,7 +352,7 @@ ul {
 }
 
 .productsBtn {
-  font-family: 'Circular-Loom';
+  font-family: 'Circular-Loom', Arial, Helvetica, sans-serif;
   border-radius: 5px;
   font-size: large;
   width: 70vw;
@@ -324,18 +377,6 @@ ul {
   display: none;
 }
 
-/* button:hover .slide-fwd-center {
-    animation: slide-fwd-center 0.45s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-} */
-
-/* @keyframes slide-fwd-center {
-    0% {
-        transform: translateZ(0);
-    }
-    100% {
-        transform: translateZ(160px);
-    }
-} */
 svg {
   color: red;
 }
@@ -344,22 +385,80 @@ svg {
   img {
     width: 25vw;
   }
-.navMenu {
-  display: flex;
-  flex-direction: row;
-  background-color: none;
-  justify-content: center;
-    align-items: center;
-}
-.navIcon{
-  display: none;
-}
-.navMenu li {
-  padding: 0px;}
 
-  .navele{
-    width: 10vw;
+  .navMenu {
+    color: #575757;
+    position: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    height: 10vh;
   }
+
+  .navIcon {
+    display: none;
+  }
+
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 0;
+    height: fit-content;
+  }
+
+  .navMenu li {
+    padding: 0;
+  }
+
+  .navele {
+    font-size: 15px;
+    border: none;
+    border-radius: 0;
+    width: 10vw;
+    height: 50px;
+  }
+
+  .navele:hover {
+    color: #f63d23;
+    border: #f63d23 5px solid;
+
+  }
+  .navele:active{
+    color: #dbdbdb;
+    background-color: #272a31;
+  }
+  .storyH1 {
+    margin: 0;
+    width: 50vw;
+    font-size: 65px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: contain;
+    background-image: url(./Assets/images/backgroundText.jpg);
+    background-blend-mode: lighten;
+    color: transparent;
+  }
+
+  .storyH2 {
+    color: #f63d23;
+    margin: 0;
+    width: 50vw;
+    font-size: 35px;
+  }
+
+  .dateLocation {
+    text-align: center;
+  }
+
+  .logo {
+    display: flex;
+  }
+
   .prd1 {
     display: flex;
     flex-direction: column;
@@ -370,7 +469,6 @@ svg {
     align-items: center;
     text-align: center;
     margin: 5px;
-    text-align: center;
   }
 
   .mainSpecs {
@@ -403,7 +501,7 @@ svg {
   }
 
   .realProdSection {
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 0 0;
@@ -428,10 +526,7 @@ svg {
 
   .productImage {
     width: 10vw;
-  }
-
-  .realProdSection {
-    display: none;
+    height: fit-content;
   }
 
   .prodText2 {
@@ -444,5 +539,9 @@ svg {
     position: absolute;
     width: 7vw;
     z-index: -1;
+  }
+
+  .storyParagraph {
+    width: 40vw;
   }
 }

@@ -1,4 +1,4 @@
-const heroSection = document.querySelector('.mainArt');
+const heroSection = document.querySelector('.storyH2');
 const productsListBlur = document.querySelector('.productsList');
 const navIcon = document.querySelector('.navIcon i');
 const dateBlur = document.querySelector('.dateLocation');
@@ -10,7 +10,7 @@ function navMenuFun() {
 
   if (navIcon.classList.contains('fa-bars')) {
     navIcon.classList.replace('fa-bars', 'fa-times');
-    heroSection.style.filter = 'blur(15px)';
+    heroSection.style.filter = 'blur(55px)';
     productsListBlur.style.filter = 'blur(15px)';
     dateBlur.style.filter = 'blur(15px)';
   } else {

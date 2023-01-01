@@ -31,7 +31,7 @@ const makeUpDiv = document.querySelector('.mainSpecs');
 makeUpDiv.innerHTML = featuredProducts11
   .map(
     (x) => `
-    <div class='prd1 scroll'>
+    <div class='prd1'>
         <img class='svgImage' src='${x.image}'>
         <h4 class='prodName'>${x.name}</h4>
         <h4 class='prodText'>${x.description}</h4>
