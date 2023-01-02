@@ -64,6 +64,7 @@ h2.logo {
   font-size: 20px;
   color: #f63d23;
   margin: 0;
+      margin-top: 5vh;
   width: 90vw;
 }
 
@@ -83,6 +84,7 @@ h2.logo {
 
 /* scroll animation */
 h1 {
+  margin: 0 auto;
   font-size: 40px;
 }
 
@@ -136,20 +138,27 @@ h3 {
   flex-direction: column;
   margin: 0;
   padding: 0;
-
-  /* margin-top: 70px; */
+  background: linear-gradient(360deg, rgb(173 174 137) 0%, rgb(255 255 255) 55%, rgb(59 98 106) 100%);
+    /* margin-top: 70px; */
   height: 100vh;
   align-items: center;
   justify-content: center;
 }
 
 .navIcon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
   color: #ec5242;
   position: relative;
-  display: flex;
-  height: 40px;
-  padding: 20px;
+  height: 10vh;
+  /* padding: 20px; */
   font-size: 50px;
+  background-color: #ffffff;
+}
+.fa{
+  margin-left: 10px;
 }
 
 .navele {
@@ -198,10 +207,18 @@ h3 {
 }
 
 .mainArtAbout {
-  color: #f63d23;
-  text-align: center;
+    display: flex;
+      flex-direction: column;
+      color: #f63d23;
+      text-align: center;
+      align-content: center;
+      align-items: center;
+    }
+#aboutContact{
+  margin-bottom: 10px;
+  background-color: #d3d3d3;
+  height: 16vh;
 }
-
 .navLink {
   color: inherit;
   text-decoration: none;
@@ -333,7 +350,17 @@ ul {
   display: flex;
   flex-direction: column;
 }
-
+#ourProductsH2{
+  margin: 0;
+  margin-top: 30px;
+  text-align: center;
+}
+hr{
+  width: 20vw;
+  background-color: #f63d23;
+  height: 1.5px;
+  margin-bottom: 5vh;
+}
 .moreBtn {
   border: 2px solid #dbdbdb;
   font-size: 25px;
@@ -374,7 +401,32 @@ ul {
 .moreShow {
   display: flex;
 }
+.logoAbout{
+  border-top: 1px solid #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
+}
+.eventPhotos{
+  width: 100vw;
+  position: relative;
+}
 
+
+.eventImg{
+  width: 90vw;
+  filter: invert(14%) sepia(85%) saturate(400%) hue-rotate(350deg) brightness(90%) contrast(88%)
+}
+.secSectionAbout{
+      display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        text-align: center;
+}
+.textImage1{
+  color: red;
+  position: absolute;
+    z-index: 1;
+}
 .allProductsDesktop {
   display: none;
 }
@@ -382,7 +434,29 @@ ul {
 svg {
   color: red;
 }
-
+.partnerLogos{
+display: flex;
+flex-direction: row;
+    display: flex;
+      flex-direction: row;
+      width: 100vw;
+      flex-wrap: wrap;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      background-color: #cfcfcf;
+    }
+.logoImg{
+  width: 30vw;
+}
+footer{
+      display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-evenly;
+        color: #000;
+        font-size: 15px;
+}
 @media (min-width: 700px) {
   img {
     width: 25vw;
@@ -453,6 +527,7 @@ svg {
   .storyH2 {
     color: #f63d23;
     margin: 0;
+    margin-top: 10vh;
     width: 50vw;
     font-size: 35px;
   }
@@ -476,7 +551,9 @@ svg {
     text-align: center;
     margin: 5px;
   }
-
+hr{
+  width: 3vw;
+}
   .mainSpecs {
     display: flex;
     flex-direction: row;
@@ -518,6 +595,7 @@ svg {
     grid-template: repeat(1, 1fr) / repeat(4, 1fr);
     gap: 10px;
     margin: 10vw;
+        margin-top: 0;
   }
 
   .realProduct {

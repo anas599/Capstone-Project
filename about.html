@@ -13,29 +13,25 @@
 </head>
 
 <body>
-    <section class="hero scroll">
+    <section class="hero scroll" id="navId">
         <nav>
-
             <ul class="navMenu scroll">
-                <!-- <ul>
-                    Products
-                    <li class="products">Rouge</li>
-                    <li class="products">Mascara</li>
-                    <li class="products">Hair Care</li>
-                </ul> -->
+                <h2 class="logo">Nova</h2>
                 <li class="navele"><a class="navLink" href="./index.html">Home</a></li>
+                <li class="navele"><a class="navLink" href="./about.html">About Us</a></li>
                 <li class="navele">Our Story</li>
                 <li class="navele">Contact Us</li>
-                <li class="navele"><a class="navLink" href="./about.html">About Us</a></li>
             </ul>
-            <div class="navIcon" onclick="navMenuFun()">
-                <i class="fa fa-bars"></i>
-                <img class="backImage" src="./Assets/images/cosmetics_icons.png" alt="">
-            </div>
         </nav>
     </section>
+    <div class="navIcon" onclick="navMenuFun()">
+        <i class="fa fa-bars"></i>
+        <h1>Nova</h1>
+        <!-- <img class="backImage" src="./Assets/images/cosmetics_icons.png" alt=""> -->
+    </div>
     <section id="about">
         <article class="mainArtAbout">
+            <img class="greyFullImg" src="./Assets/images/greyPatful.jpg" alt="">
             <h2>Nova Cosmetics</h2>
             <h1>Our Story Started in 2020 when Pandamic spreaded</h1>
             <p class="storyParagraph">At Nova Cosmetics, we believe in the power of natural beauty. Our mission is to
@@ -44,13 +40,52 @@
                 natural products
                 that enhance your natural beauty and make you feel confident and empowered.
             </p>
+            <div id="aboutContact">
             <p>
                 Please contact us through our email address If you had any other questions or inquiries <br>
                 about Nova Cosmetics
             </p>
             <a href="demo@novact.com">demo@novact.com</a>
+            </div>
+        </article>
+        <article>
+            <h2>Nova Cosmetics 2022</h2>
+            <p>
+                The logo of Nova Cosmetics was decided through the logo competition from 8, June to 7, July.
+            </p>
+            <div class="logoAbout">
+                <img src="./Assets/images/logo.png" alt="">
+            </div>
         </article>
     </section>
+    <section class="secSectionAbout">
+        <article>
+            <h2>See the past Nova Events</h2>
+            <hr>
+            <p>Take a look at the past Nova events which took place in Dubai and in Erbil</p>
+            <div class="eventPhotos">
+                <img class="eventImg" src="./Assets/images/event2.jpg" alt="event photo">
+                <h3>2020</h3>
+                <p>Nova Cosmetics in Dubai</p>
+                <img class="eventImg" src="./Assets/images/Event_Photo.jpg" alt="event photo">
+            </div>
+        </article>
+        <article>
+            <h2>Partners</h2>
+            <hr>
+            <div class="partnerLogos">
+            <img class="logoImg" src="./Assets/images/loreal.png" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/mlogo.png" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/Sephora-Logo.png" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/MAC-Cosmetics-Logo.png" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/maynyc.png" alt="Partner Logo">
+            </div>
+        </article>
+    </section>
+    <footer>
+        <h4>Nova Logo</h4>
+        <p>2022 Nova Cosmetics, Some rights reserved</p>
+    </footer>
     <script src="./Assets/JavaScript/allProductDT.js"></script>
     <script src="./Assets/JavaScript/navMenuMobile.js"></script>
     <script src="./Assets/JavaScript/featuredSpecs.js"></script>
