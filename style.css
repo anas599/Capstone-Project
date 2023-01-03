@@ -518,7 +518,7 @@ footer {
 
 #imgevent {
   width: 70vw;
-  height: 20vh;
+  height: fit-content;
 }
 
 @media (min-width: 700px) {
