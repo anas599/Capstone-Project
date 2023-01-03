@@ -33,6 +33,21 @@ h2 {
   color: #000;
 }
 
+#novaLink {
+  text-decoration: none;
+  color: #f63d23;
+  text-align: center;
+  margin-left: 25vw;
+}
+
+#novaLink1 {
+  display: none;
+  text-decoration: none;
+  color: #f63d23;
+  text-align: center;
+  margin-left: 25vw;
+}
+
 h2.logo {
   position: absolute;
   left: 0;
@@ -526,6 +541,10 @@ footer {
     width: 25vw;
   }
 
+  #novaLink1 {
+    display: flex;
+  }
+
   .topBanner {
     display: flex;
     position: fixed;
@@ -551,7 +570,7 @@ footer {
     position: inherit;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     background-color: #fff;
     height: 10vh;
