@@ -2,34 +2,13 @@
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
-  <img src="Assets/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./Assets/images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: desktop version README file</b></h3>
+  <h3><b>Nova Cosmetics Project</b></h3>
 
 </div>
 
@@ -59,10 +38,10 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Anas's Desktop Porfolio] <a name="about-project"></a>
+# 📖 [Nova Cosmetics Project] <a name="about-project"></a>
 
 
-**[Anas's Desktop Porfolio]** is a mobile and Desktop responsive website to demonstrate my knowledge in HTML and CSS
+**[Nova Cosmetics Project]** is a mobile and Desktop responsive website to demonstrate my knowledge in HTML/CSS and Javascript, it's a re-designing website for already existing brand 
 
 ## 🛠 Built With <a name="HTML/CSS and Javascript"></a>
 
@@ -109,7 +88,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://anas599.github.io/)
+- [Live Demo Link](https://github.com/anas599/Capstone-project)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -238,9 +217,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="If you like the design feel free to contact me for any help or inquiries "></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> please consider supporting it. Every little bit helps and goes a long way towards helping us reach our goals...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +225,7 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+> Thnaks to Cindy Shin for provideing such an Amazing design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,7 +233,7 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+> 
 
 - **[Question_1]**
 
