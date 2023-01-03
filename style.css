@@ -6,6 +6,10 @@ body {
   background-repeat: no-repeat;
 }
 
+.topBanner {
+  display: none;
+}
+
 .hero {
   text-align: left;
   position: inherit;
@@ -154,8 +158,7 @@ h3 {
   color: #ec5242;
   position: relative;
   height: 10vh;
-
-  /* padding: 20px; */
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   font-size: 50px;
   background-color: #fff;
 }
@@ -220,7 +223,7 @@ h3 {
 
 #aboutContact {
   margin-bottom: 10px;
-  background-color: #d3d3d3;
+  background-color: #fff;
   height: 16vh;
 }
 
@@ -420,12 +423,8 @@ hr {
   position: relative;
 }
 
-.eventImg {
-  width: 90vw;
-  filter: invert(14%) sepia(85%) saturate(400%) hue-rotate(350deg) brightness(90%) contrast(88%);
-}
-
 .secSectionAbout {
+  color: black;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -471,9 +470,52 @@ footer {
   font-size: 15px;
 }
 
+.partnerText {
+  text-align: center;
+  margin: 0;
+}
+
+.textAbout2 {
+  color: #000;
+  text-align: center;
+}
+
+.storyParagraphAbout2 {
+  display: none;
+}
+
+.storyParagraphAbout1 {
+  color: #000;
+  background-color: #fff;
+  margin: 20px;
+  padding: 10px;
+  padding: 20px 20px;
+  width: 90vw;
+}
+
 @media (min-width: 700px) {
   img {
     width: 25vw;
+  }
+
+  .topBanner {
+    display: flex;
+    position: fixed;
+    height: 30px;
+    width: 75vw;
+    padding-right: 25vw;
+    background-color: #1c1c1c;
+    color: #dbdbdb;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+  }
+
+  .topBannerText {
+    font-size: 10px;
+    margin: 5px;
   }
 
   .navMenu {
@@ -497,9 +539,9 @@ footer {
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    margin: 0;
-
-    /* height: fit-content; */
+    margin-block: 20px;
+    position: fixed;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   }
 
   .navMenu li {
@@ -514,6 +556,10 @@ footer {
     height: 50px;
   }
 
+  .mainArt {
+    align-items: flex-start;
+  }
+
   .navele:hover {
     color: #f63d23;
     border: #f63d23 5px solid;
@@ -526,12 +572,9 @@ footer {
 
   .storyH1 {
     margin: 0;
+    margin-left: 10vw;
     width: 50vw;
-    font-size: 65px;
-
-    /* -webkit-background-clip: text; */
-
-    /* background-clip: text; */
+    font-size: 70px;
     background-size: contain;
     background-image: url(./Assets/images/backgroundText.jpg);
     background-blend-mode: lighten;
@@ -541,13 +584,29 @@ footer {
   .storyH2 {
     color: #f63d23;
     margin: 0;
-    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-top: 25vh;
     width: 50vw;
     font-size: 35px;
+    z-index: -1;
+  }
+
+  .storyAboutH1 {
+    margin-top: 20vh;
+  }
+
+  .storyAboutH2 {
+    margin-top: 0;
+    font-size: 60px;
+    width: 70vw;
   }
 
   .dateLocation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
     text-align: center;
+    margin-left: 10vw;
   }
 
   .logo {
@@ -557,7 +616,8 @@ footer {
   .prd1 {
     display: flex;
     flex-direction: column;
-    width: 17vw;
+    width: 15vw;
+    height: 35vh;
     border: #1c1c1c 1px solid;
     align-content: center;
     justify-content: center;
@@ -622,8 +682,7 @@ footer {
 
   .productImage {
     width: 10vw;
-
-    /* height: fit-content; */
+    height: min-content;
   }
 
   .prodText2 {
@@ -639,6 +698,82 @@ footer {
   }
 
   .storyParagraph {
-    width: 40vw;
+    width: 30vw;
+    margin-left: 10vw;
+  }
+
+  .storyParagraphAbout {
+    color: rgb(93 91 91);
+    border-radius: 5px;
+    border: rgb(170, 170, 170) 1.5px solid;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    width: 60vw;
+  }
+
+  .storyParagraphAbout2 {
+    color: rgb(93 91 91);
+    border-radius: 5px;
+    border: rgb(170, 170, 170) 1.5px solid;
+    background-color: #fff;
+    padding: 15px;
+    font-size: 15px;
+    width: 60vw;
+  }
+
+  #aboutContact {
+    color: #000;
+    background: none;
+  }
+
+  .logoAbout {
+    border: 1px solid rgb(201, 201, 201);
+    /* margin: 10vh; */
+    background-color: #efefef;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+
+  .eventPhotos {
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgTextabt {
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+  }
+
+  .logoImg {
+    width: 10vw;
+    margin: 10px;
+  }
+
+  .eventPhotoswText {
+    position: relative;
+    text-align: center;
+    color: white;
+    filter: invert(14%) sepia(85%) saturate(400%) hue-rotate(350deg) brightness(90%) contrast(88%);
+    margin: 20px;
+  }
+
+  .textcentered {
+    /* text-shadow: black; */
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  #imgevent {
+    width: 25vw;
+    height: 20vh;
   }
 }
