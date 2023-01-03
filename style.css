@@ -499,6 +499,28 @@ footer {
   width: 90vw;
 }
 
+.eventPhotoswText {
+  position: relative;
+  text-align: center;
+  color: white;
+  filter: invert(14%) sepia(85%) saturate(400%) hue-rotate(350deg) brightness(90%) contrast(88%);
+  margin: 20px;
+}
+
+.textcentered {
+  /* text-shadow: black; */
+  color: rgb(255, 255, 255);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#imgevent {
+  width: 70vw;
+  height: 20vh;
+}
+
 @media (min-width: 700px) {
   img {
     width: 25vw;
