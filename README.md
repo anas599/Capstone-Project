@@ -17,12 +17,14 @@
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+- 🎥<a href="https://www.loom.com/share/588fcf7cacc3431f86bbbf7535a9f4d9">
+Video presenting the features the Project</a>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - 🚀<a href="https://anas599.github.io/Capstone-project">Live Demo</a>
+  - [💻 Getting Started](#getting-started)
+  - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
@@ -38,6 +40,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+# 📖 [Nova Cosmetics Project] <a name="Video-Presenting"></a>
+<a href="https://www.loom.com/share/588fcf7cacc3431f86bbbf7535a9f4d9">
+Video presenting the features the Project
+</a>
 # 📖 [Nova Cosmetics Project] <a name="about-project"></a>
 
 
