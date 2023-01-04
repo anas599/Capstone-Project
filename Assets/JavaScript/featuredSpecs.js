@@ -1,26 +1,26 @@
 const featuredProducts11 = [
   {
-    image: './Assets/images/SVG/lipstick-icon.svg',
+    image: './Assets/images/ProgramLogos/program_icon_01 1.svg',
     name: 'Foundation',
     description: 'Ultimate Matte Foundation',
   },
   {
-    image: './Assets/images/SVG/makeup-icon.svg',
+    image: './Assets/images/ProgramLogos/program_icon_02 1.svg',
     name: 'Primer',
     description: 'Volume Length Mascara',
   },
   {
-    image: './Assets/images/SVG/beauty-icon.svg',
+    image: './Assets/images/ProgramLogos/program_icon_03 1.svg',
     name: 'Powder',
     description: 'Poreless Primer Blurmax Pore-minimize Primer',
   },
   {
-    image: './Assets/images/SVG/compact-mirror-icon.svg',
+    image: './Assets/images/ProgramLogos/program_icon_04 1.svg',
     name: 'Mascara',
     description: 'Volume Length Mascara',
   },
   {
-    image: './Assets/images/SVG/makeup-brushes-icon.svg',
+    image: './Assets/images/ProgramLogos/program_icon_05 1.svg',
     name: 'Eyeliner',
     description: 'Intense Waterproof Eyeliner',
   },
