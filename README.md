@@ -2,34 +2,13 @@
 
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
 
 <div align="center">
 
-  <img src="Assets/logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./Assets/images/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>Portfolio: desktop version README file</b></h3>
+  <h3><b>Nova Cosmetics Project</b></h3>
 
 </div>
 
@@ -38,12 +17,14 @@ After you're finished please remove all the comments and instructions!
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
+- 🎥<a href="https://www.loom.com/share/588fcf7cacc3431f86bbbf7535a9f4d9">
+Video presenting the features the Project</a>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
+  - 🚀<a href="https://anas599.github.io/Capstone-project/">Live Demo</a>
+  - [💻 Getting Started](#getting-started)
+  - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
@@ -59,10 +40,14 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Anas's Desktop Porfolio] <a name="about-project"></a>
+# 📖 [Nova Cosmetics Project] <a name="Video-Presenting"></a>
+<a href="https://www.loom.com/share/588fcf7cacc3431f86bbbf7535a9f4d9">
+Video presenting the features the Project
+</a>
+# 📖 [Nova Cosmetics Project] <a name="about-project"></a>
 
 
-**[Anas's Desktop Porfolio]** is a mobile and Desktop responsive website to demonstrate my knowledge in HTML and CSS
+**[Nova Cosmetics Project]** is a mobile and Desktop responsive website to demonstrate my knowledge in HTML/CSS and Javascript, it's a re-designing website for already existing brand 
 
 ## 🛠 Built With <a name="HTML/CSS and Javascript"></a>
 
@@ -109,7 +94,7 @@ After you're finished please remove all the comments and instructions!
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://anas599.github.io/)
+- [Live Demo Link](https://anas599.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -238,9 +223,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="If you like the design feel free to contact me for any help or inquiries "></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+> please consider supporting it. Every little bit helps and goes a long way towards helping us reach our goals...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -248,9 +231,8 @@ If you like this project...
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
+> Thanks to <a href="https://www.behance.net/adagio07">Cindy Shin</a> for provideing such an Amazing design
 
-I would like to thank...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -258,7 +240,7 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+> 
 
 - **[Question_1]**
 

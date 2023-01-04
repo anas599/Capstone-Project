@@ -1,37 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href='https://fonts.googleapis.com/css2?family=Cocogoose&family=Lato' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
-    <script src="./Assets/JavaScript/scrollTransitions.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script defer src="./Assets/JavaScript/scrollTransitions.js"></script>
+    <title>Document</title>
 </head>
-<body>
+<body>    
+    <header>
+        <ul class="topBanner">
+            <li class="fa fa-twitter topBannerText"></li>
+            <li class="fa fa-facebook topBannerText"></li>
+            <li class="topBannerText">My Page</li>
+            <li class="topBannerText">logOut</li>
+            <li class="topBannerText">English</li>
     
-    <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
-                data-mdb-target="#navbarToggleExternalContent2" aria-controls="navbarToggleExternalContent1"
-                aria-expanded="false" aria-label="Toggle navigation">
-                <i class="fas fa-bars text-dark"></i>
-            </button>
-            <a class="navbar-brand" href="#">Navbar</a>
-        </div>
-    </nav>
-    <div class="collapse" id="navbarToggleExternalContent2">
-        <ul class="bg-light shadow-3 py-2 px-3">
-            <li class="btn btn-link btn-block m-0 p-2 text-start text-dark">home</li>
-            <li class="btn btn-link btn-block m-0 p-2 text-start text-dark">Features</li>
-            <li class="btn btn-link btn-block m-0 p-2 text-start text-dark">Pricing</li>
         </ul>
+    </header>
+    <section class="hero scroll" id="navId">
+        <nav>
+            <ul class="navMenu scroll">
+                <a id="novaLink1" href="./index.html">Nova</a>
+                <li class="navele"><a class="navLink" href="./index.html">Home</a></li>
+                <li class="navele"><a class="navLink" href="./about.html">About Us</a></li>
+                <li class="navele">Our Story</li>
+                <li class="navele">Contact Us</li>
+            </ul>
+        </nav>
+    </section>
+    <div class="navIcon" onclick="navMenuFun()">
+        <i class="fa fa-bars"></i>
+        <a id="novaLink" href="./index.html">Nova</a>
     </div>
+    <article class="mainArt ">
+        <img class="greyFullImg"  src="./Assets/images/greyPatful.jpg" alt="">
+        <h1 class="storyH2 ">"Hello! Caring World"</h1>
+        <h2 class="storyH1 ">Our Story Started in 2020 when Pandamic Started</h2>
+        <p class="storyParagraph">At Nova Cosmetics, we believe in the power of natural beauty. Our mission is to create high-quality,
+            natural products
+            that enhance your natural beauty and make you feel confident and empowered.</p>
+    </article>
 
+    <div class="dateLocation scroll">
+    <h3 class="dateH3">2023.01.02(WED)~11(FRI)</h3>
+    <h4 class="locationH4" >@City Mall, Amman, Jordan</h4>
+    </div>
+    <section class="productsList scroll">
+        <h2 id="ourProductsH2"> Our Specs</h2>
+        <div class="makeup">
+            <img class="backImageProd" src="./Assets/images/bgDark.png" alt="">
+            <hr></hr>
+            <div class="mainSpecs">
+            </div>
+        </div>
+        <a class="SeeMoreprd">See All Products</a>
+    </section>
 
+    <h2 id="ourProductsH22">Our Product</h2>
+    <hr></hr>
+    <section class="realProdSection">
+        <div class="realProd ">
+        </div>
+        <div class="moreProd scroll">
+        </div>
+        <button class="moreBtn" onclick="showMore()">
+            <p>More <i class="arrow down"></i></p>
+        </button>
+
+    </section>
+    <section>
+        <div class="allProductsDesktop">
+        </div>
+    </section>
+            <article class="scroll partners">
+            <h2 class="partnerText">Partners</h2>
+            <hr>
+            <div class="partnerLogos">
+            <img class="logoImg" src="./Assets/images/PartnerLogo/airbnb 1.svg" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/PartnerLogo/daumkakaologo 1.svg" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/PartnerLogo/googlekorea 1.svg" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/PartnerLogo/mozilla 1.svg" alt="Partner Logo">
+            <img class="logoImg" src="./Assets/images/PartnerLogo/naver 1.svg" alt="Partner Logo">
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p>Nova Logo</p>
+        <p>2022 Nova Cosmetics, Some rights reserved</p>
+    </footer>
+
+    <script src="./Assets/JavaScript/allProductDT.js"></script>
+    <script src="./Assets/JavaScript/navMenuMobile.js"></script>
+    <script src="./Assets/JavaScript/featuredSpecs.js"></script>
+    <script src="./Assets/JavaScript/futureProducts.js"></script>
+    <script src="./Assets/JavaScript/moreProducts.js"></script>
 </body>
 </html>
