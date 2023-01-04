@@ -1,6 +1,6 @@
 body {
   color: #d3d3d3;
-  font-family: 'Circular-Loom', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   margin: 0;
   background-color: #efefef;
   background-repeat: no-repeat;
@@ -17,25 +17,19 @@ body {
 
 .backImage {
   opacity: 0.05;
-
-  /* position: absolute; */
-
-  /* back image postion conflict with navmenu */
   top: 0;
   left: 0;
   width: 100%;
-
-  /* height: 100%; */
   z-index: -1;
 }
 
 h2 {
-  color: #000;
+  color: #272a31;
 }
 
 #novaLink {
   text-decoration: none;
-  color: #f63d23;
+  color: #ec5242;
   text-align: center;
   margin-left: 25vw;
 }
@@ -43,7 +37,7 @@ h2 {
 #novaLink1 {
   display: none;
   text-decoration: none;
-  color: #f63d23;
+  color: #ec5242;
   text-align: center;
   margin-left: 25vw;
 }
@@ -62,8 +56,6 @@ h2.logo {
   width: 100vw;
   height: 100%;
   z-index: -1;
-
-  /* background-size: ; */
 }
 
 .storyH1 {
@@ -74,14 +66,14 @@ h2.logo {
 
   /* background-clip: text; */
   background-size: contain;
-  background-image: url(./Assets/images/backgroundText.jpg);
+  background-image: url(./Assets/images/backgoundText2.jpg);
   background-blend-mode: lighten;
   color: transparent;
 }
 
 .storyH2 {
   font-size: 20px;
-  color: #f63d23;
+  color: #ec5242;
   margin: 0;
   margin-top: 5vh;
   width: 90vw;
@@ -118,7 +110,7 @@ h1 {
 .prodName2 {
   word-wrap: normal;
   width: 80px;
-  color: #1c1c1c;
+  color: #272a31;
   font-size: 20px;
   margin: 10px;
 }
@@ -129,7 +121,7 @@ h3 {
 }
 
 .SeeMoreprd {
-  color: #000;
+  color: #272a31;
   margin: 20px;
   text-decoration: underline;
 }
@@ -164,8 +156,6 @@ h3 {
   margin: 0;
   padding: 0;
   background: linear-gradient(360deg, rgb(173 174 137) 0%, rgb(255 255 255) 55%, rgb(59 98 106) 100%);
-
-  /* margin-top: 70px; */
   height: 100vh;
   align-items: center;
   justify-content: center;
@@ -189,14 +179,14 @@ h3 {
 }
 
 .navele {
-  border: #f63d23 2px solid;
+  border: #ec5242 2px solid;
   border-radius: 10px;
   font-size: 27px;
   margin: 20px;
   width: 50vw;
   text-align: center;
   list-style-type: none;
-  color: black;
+  color: #272a31;
   padding: 16px;
   display: flex;
   justify-content: center;
@@ -205,8 +195,8 @@ h3 {
 }
 
 .navele:hover {
-  color: #f63d23;
-  border: #f63d23 5px solid;
+  color: #ec5242;
+  border: #ec5242 5px solid;
 }
 
 .navele:active {
@@ -236,7 +226,7 @@ h3 {
 .mainArtAbout {
   display: flex;
   flex-direction: column;
-  color: #f63d23;
+  color: #ec5242;
   text-align: center;
   align-content: center;
   align-items: center;
@@ -258,19 +248,19 @@ h3 {
 }
 
 .dateH3 {
-  color: #575757;
+  color: #272a31;
   font-size: 30px;
   margin: 20px;
 }
 
 .locationH4 {
-  color: #575757;
+  color: #272a31;
   font-size: 20px;
   margin: 20px;
 }
 
 .storyParagraph {
-  color: rgb(93 91 91);
+  color: #272a31;
   border-radius: 5px;
   border: rgb(170, 170, 170) 2px solid;
   background-color: #d3d3d33d;
@@ -285,10 +275,6 @@ h3 {
   align-items: center;
   width: 100vw;
   margin: 0;
-
-  /* z-index: -1; */
-
-  /* z-index causes the inspect to be at body first */
   position: relative;
   justify-content: center;
 }
@@ -317,16 +303,13 @@ ul {
   flex-direction: row;
   align-items: center;
   align-content: flex-start;
+  justify-content: space-evenly;
 }
 
 .svgImage {
   margin: 10px;
   width: 8vw;
   height: 7vh;
-
-  /* border: hsl(32deg 94% 86%) dotted 10px; */
-
-  /* border-radius: 100%; */
 }
 
 .productImage {
@@ -344,7 +327,7 @@ ul {
 .prodText {
   text-shadow: 0 0 4px #000;
   color: #fff;
-  width: 40vw;
+  width: 50vw;
 }
 
 .realProduct {
@@ -388,7 +371,7 @@ ul {
 
 hr {
   width: 20vw;
-  background-color: #f63d23;
+  background-color: #ec5242;
   height: 1.5px;
   margin-bottom: 5vh;
 }
@@ -413,7 +396,7 @@ hr {
 }
 
 .productsBtn {
-  font-family: 'Circular-Loom', Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
   border-radius: 5px;
   font-size: large;
   width: 70vw;
@@ -445,7 +428,7 @@ hr {
 }
 
 .secSectionAbout {
-  color: black;
+  color: #272a31;
   display: flex;
   flex-direction: column;
   align-content: center;
@@ -454,7 +437,7 @@ hr {
 }
 
 .textImage1 {
-  color: red;
+  color: #ec5242;
   position: absolute;
   z-index: 1;
 }
@@ -464,7 +447,7 @@ hr {
 }
 
 svg {
-  color: red;
+  color: #ec5242;
 }
 
 .partnerLogos {
@@ -475,7 +458,7 @@ svg {
   align-content: center;
   justify-content: center;
   align-items: center;
-  background-color: #cfcfcf;
+  background-color: #d3d3d3;
 }
 
 .logoImg {
@@ -487,7 +470,7 @@ footer {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  color: #000;
+  color: #272a31;
   font-size: 15px;
 }
 
@@ -497,7 +480,7 @@ footer {
 }
 
 .textAbout2 {
-  color: #000;
+  color: #272a31;
   text-align: center;
 }
 
@@ -506,7 +489,7 @@ footer {
 }
 
 .storyParagraphAbout1 {
-  color: #000;
+  color: #272a31;
   background-color: #fff;
   margin: 20px;
   padding: 10px;
@@ -523,7 +506,6 @@ footer {
 }
 
 .textcentered {
-  /* text-shadow: black; */
   color: rgb(255, 255, 255);
   position: absolute;
   top: 50%;
@@ -534,6 +516,10 @@ footer {
 #imgevent {
   width: 70vw;
   height: inherit;
+}
+
+.partners {
+  background-color: #d3d3d3;
 }
 
 @media (min-width: 700px) {
@@ -548,10 +534,12 @@ footer {
   .topBanner {
     display: flex;
     position: fixed;
+    text-decoration: none;
+    list-style: none;
     height: 30px;
     width: 75vw;
     padding-right: 25vw;
-    background-color: #1c1c1c;
+    background-color: #272a31;
     color: #dbdbdb;
     z-index: 1;
     flex-direction: row;
@@ -566,7 +554,7 @@ footer {
   }
 
   .navMenu {
-    color: #575757;
+    color: #272a31;
     position: inherit;
     display: flex;
     flex-direction: row;
@@ -608,8 +596,8 @@ footer {
   }
 
   .navele:hover {
-    color: #f63d23;
-    border: #f63d23 5px solid;
+    color: #ec5242;
+    border: #ec5242 5px solid;
   }
 
   .navele:active {
@@ -629,7 +617,7 @@ footer {
   }
 
   .storyH2 {
-    color: #f63d23;
+    color: #ec5242;
     margin: 0;
     margin-left: 10vw;
     margin-top: 25vh;
@@ -750,7 +738,7 @@ footer {
   }
 
   .storyParagraphAbout {
-    color: rgb(93 91 91);
+    color: #272a31;
     border-radius: 5px;
     border: rgb(170, 170, 170) 1.5px solid;
     background-color: #fff;
@@ -760,7 +748,7 @@ footer {
   }
 
   .storyParagraphAbout2 {
-    color: rgb(93 91 91);
+    color: #272a31;
     border-radius: 5px;
     border: rgb(170, 170, 170) 1.5px solid;
     background-color: #fff;
@@ -770,14 +758,12 @@ footer {
   }
 
   #aboutContact {
-    color: #000;
+    color: #272a31;
     background: none;
   }
 
   .logoAbout {
     border: 1px solid rgb(201, 201, 201);
-
-    /* margin: 10vh; */
     background-color: #efefef;
     margin-top: 10vh;
     margin-bottom: 10vh;
@@ -812,7 +798,6 @@ footer {
   }
 
   .textcentered {
-    /* text-shadow: black; */
     color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
@@ -822,6 +807,6 @@ footer {
 
   #imgevent {
     width: 25vw;
-    height: 20vh;
+    height: min-content;
   }
 }

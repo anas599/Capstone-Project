@@ -22,7 +22,7 @@ Video presenting the features the Project</a>
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - 🚀<a href="https://anas599.github.io/Capstone-project">Live Demo</a>
+  - 🚀<a href="https://anas599.github.io/Capstone-project/">Live Demo</a>
   - [💻 Getting Started](#getting-started)
   - [Setup1](#setup)
   - [Prerequisites](#prerequisites)
@@ -94,7 +94,7 @@ Video presenting the features the Project
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/anas599/Capstone-project)
+- [Live Demo Link](https://anas599.github.io/Capstone-project/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -231,7 +231,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Thnaks to Cindy Shin for provideing such an Amazing design
+> Thanks to <a href="https://www.behance.net/adagio07">Cindy Shin</a> for provideing such an Amazing design
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
